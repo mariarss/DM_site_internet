@@ -1,0 +1,175 @@
+style.css
+/* Reset des styles par défaut pour une meilleure cohérence entre navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le corps du site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B4D4FF; /* Nouvelle couleur de fond */
+    color: #333;
+}
+
+/* En-tête */
+h1 {
+    text-align: center;
+    margin-top: 40px; /* Augmentation de la marge au-dessus du titre */
+}
+
+/* Liens de navigation */
+a {
+    display: inline-block;
+    margin: 20px; /* Augmentation de la marge autour des icônes */
+    border-radius: 15px; /* Bordures arrondies pour tous les liens */
+    overflow: hidden; /* Assure que les coins arrondis sont appliqués */
+    transition: transform 0.3s ease; /* Transition pour le survol */
+}
+
+/* Images de navigation */
+img {
+    border-radius: 15px; /* Arrondir les images */
+}
+
+/* Effet de survol */
+a:hover {
+    transform: scale(1.1); /* Léger agrandissement au survol */
+}
+
+/* Conteneur principal */
+.center-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contenu principal */
+.main-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tableau */
+table {
+    background-color: #fff; /* Fond du tableau blanc */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Réseaux sociaux */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    display: block;
+}
+
+.social-icons li img {
+    width: 40px; /* Ajustez la taille des icônes selon vos besoins */
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* Applique des styles aux tableaux */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Applique des styles aux formulaires */
+form {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+table input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Styles supplémentaires pour les boutons si nécessaire */
+input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation de fond */
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+/* Style du conteneur de la page */
+body {
+    background: linear-gradient(-45deg, #b0e4ed, #5ebbed, #409eec, #B4D4FF);
+    background-size: 400% 400%; /* Taille du dégradé */
+    animation: animatedBackground 15s ease infinite; /* Animation du dégradé */
+}
+
+
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333;
+    position: fixed;
+    top: 20;
+    left: 0;
+}
+
+
